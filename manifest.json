@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "KoL Breakfast",
+  "version": "0.1.0",
+  "description": "Add custom breakfast buttons for the Kingdom of Loathing",
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://*.kingdomofloathing.com/game.php", "http://*.kingdomofloathing.com/game.php"]
+  }]
+}
